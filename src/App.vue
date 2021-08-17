@@ -1,31 +1,56 @@
 <template>
   <div id="nav">
-    <router-link to="/"><img src="@/assets/logo.png" alt="Logo R L Web Project"></router-link> |
-    <router-link to="/portefolio">Portefolio</router-link> |
-    <router-link to="/services">Services</router-link> |
-    <router-link to="/contact">Contact</router-link>
+      <div class="logo">
+        <router-link to="/"><p>RL WebProject</p></router-link>
+      </div>
+      <div class="nav-bar">
+        <router-link to="/portefolio">Portefolio</router-link>
+        <router-link to="/services">Services</router-link>
+        <router-link to="/contact">Contact</router-link>
+      </div>
   </div>
   <router-view/>
 </template>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Montserrat;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #fff;
 }
 
 #nav {
-  padding: 30px;
-
+  background: url(./assets/Fond/1.png);
+  height: 18vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4vw;
+  padding-right: 5vw;
+  position: relative;
+  .logo {
+    p {
+      color: #89815F;
+      font-family: 'AlphaCentauri';
+      font-size: x-large;
+      letter-spacing: 10pt;
+    }
+  }
+  .nav-bar {
+    a {
+      margin-left: 100pt;
+    }
+  }
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #fff;
+    height: 30px;
 
     &.router-link-exact-active {
-      color: #42b983;
+      border-bottom: 1px solid #89815F;
     }
   }
 }
