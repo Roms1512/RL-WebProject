@@ -72,7 +72,6 @@ export default {
   position: relative;
   top: -18vh;
   a {
-    color: #fff;
     padding: 8px 40px;
     font-weight: bold;
     border: 1px solid #fff;
@@ -98,7 +97,7 @@ export default {
       height: 100vh;
     }
     h1 {
-      font-weight: bold;
+      font-weight: 600;
       font-size: 100px;
       color: #fff;
     }
@@ -122,6 +121,7 @@ export default {
       text-align: right;
     }
     h2 {
+      font-weight: 600;
       margin-bottom: 7vh;
       font-size: xxx-large;
       color: #89815F;
@@ -167,6 +167,7 @@ export default {
       top: 0;
     }
     h2 {
+      font-weight: 600;
       text-align: left;
       color: #89815F;
       padding-left: 7vw;

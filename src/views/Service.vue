@@ -78,9 +78,6 @@ export default {
   position: relative;
   top: -18vh;
   left: -1px;
-  a {
-    color: #fff;
-  }
 
   header {
     text-align: left;
@@ -97,7 +94,7 @@ export default {
       height: 100vh;
     }
     h1 {
-      font-weight: bold;
+      font-weight: 600;
       font-size: 100px;
       color: #fff;
     }
@@ -165,6 +162,7 @@ export default {
   article {
     height: 82vh;
     h2 {
+      font-weight: 600;
       margin-top: 2vh;
       color: #89815F;
       font-size: xxx-large;
