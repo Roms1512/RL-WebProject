@@ -50,13 +50,18 @@
       </div>
       <router-link to="/services">Services</router-link>
     </article>
+    <Footer/>
   </div>
 </template>
 
 <script>
+import Footer from '@/components/Footer'
 
 export default {
   name: 'Acceuil',
+  components: {
+    Footer
+  }
 }
 </script>
 
@@ -73,7 +78,7 @@ export default {
     text-align: center;
     margin-top: 5vh;
   }
-  
+
   header {
     text-align: left;
     margin-left: 10vw;

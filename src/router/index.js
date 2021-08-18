@@ -3,6 +3,7 @@ import Acceuil from '../views/Acceuil'
 import Service from '../views/Service'
 import Portefolio from '../views/Portefolio'
 import Contact from '../views/Contact'
+import Mentions from '../views/Mentions'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: Contact
+  },
+  {
+    path: '/mentions',
+    name: 'Mentions',
+    component: Mentions
   }
 ]
 
