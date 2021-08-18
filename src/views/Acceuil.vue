@@ -1,5 +1,5 @@
 <template>
-  <div id="acceuil">
+  <div id="acceuil" class="page">
     <header>
       <img src="@/assets/PhotoFond/1.png" alt="Ordinateur">
       <h1>WEB<br>DÉVELOPPEUR</h1>
@@ -67,9 +67,10 @@ export default {
 
 <style lang="scss">
 #acceuil {
-  height: 82vh;
+  height: 100vh;
   background: url(../assets/Fond/1.png);
-  
+  position: relative;
+  top: -18vh;
   a {
     color: #fff;
     padding: 8px 40px;
@@ -82,8 +83,8 @@ export default {
   header {
     text-align: left;
     margin-left: 10vw;
-    padding-top: 20vh;
-    height: 82vh;
+    padding-top: 38vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
