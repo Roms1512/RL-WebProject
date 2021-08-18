@@ -85,16 +85,13 @@ export default {
   .nav-bar {
     z-index: 10;
     a {
+      font-weight: bold;
+      color: #fff;
       margin-left: 100pt;
-    }
-  }
-  a {
-    font-weight: bold;
-    color: #fff;
-    height: 30px;
-
-    &.router-link-exact-active {
-      border-bottom: 1px solid #89815F;
+      padding-bottom: 1vh;
+      &.router-link-exact-active {
+        border-bottom: 1px solid #89815F;
+      }
     }
   }
 }

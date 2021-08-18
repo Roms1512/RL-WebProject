@@ -28,7 +28,7 @@ export default {
 <style lang="scss">
 #footer {
   background: #89815F;
-  height: 15vh;
+  height: 17vh;
   padding: 2vh 4vw;
   a {
     border: none !important;

@@ -4,7 +4,7 @@
       <img src="@/assets/PhotoFond/1.png" alt="Ordinateur">
       <h1>WEB<br>DÉVELOPPEUR</h1>
       <h5>Des technologies qui rassemble, <br>Pour un site web qui vous ressemble</h5>
-      <router-link to="/contact">Contact</router-link>
+      <router-link to="/contact">CONTACT</router-link>
     </header>
     <section>
       <h2>QUELQUES PROJETS RÉALISÉS<br>PAR NOS SOINS</h2>
@@ -48,7 +48,7 @@
           </div>
         </div>
       </div>
-      <router-link to="/services">Services</router-link>
+      <router-link to="/services">VOIR PLUS</router-link>
     </article>
     <Footer/>
   </div>
@@ -181,7 +181,7 @@ export default {
       justify-content: space-between;
       .competence {
         position: relative;
-        width: 35vw;
+        width: 40vw;
         height: 25vh;
         display: flex;
         align-items: center;
