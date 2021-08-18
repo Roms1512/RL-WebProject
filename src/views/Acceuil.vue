@@ -7,16 +7,16 @@
       <router-link to="/contact">CONTACT</router-link>
     </header>
     <section>
-      <h2>QUELQUES PROJETS RÉALISÉS<br>PAR NOS SOINS</h2>
-      <h5>Chaque projet est réalisés sur mesures pour<br>correspondre à vos besoins</h5>
+      <h2 data-aos="fade-left" data-aos-duration="1000">QUELQUES PROJETS RÉALISÉS<br>PAR NOS SOINS</h2>
+      <h5 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">Chaque projet est réalisés sur mesures pour<br>correspondre à vos besoins</h5>
       <div class="projets">
-        <div class="projet">
+        <div class="projet" data-aos="flip-left" data-aos-duration="2500" data-aos-offset="350">
           <p>Quelques mots de <br>présentation : clients etc etc</p>
         </div>
-        <div class="projet">
+        <div class="projet" data-aos="flip-left" data-aos-duration="2500" data-aos-delay="700" data-aos-offset="350">
           <p>Quelques mots de <br>présentation : clients etc etc</p>
         </div>
-        <div class="projet">
+        <div class="projet" data-aos="flip-left" data-aos-duration="2500" data-aos-delay="1400" data-aos-offset="350">
           <p>Quelques mots de <br>présentation : clients etc etc</p>
         </div>
       </div>
@@ -24,23 +24,23 @@
     </section>
     <article>
       <img src="@/assets/PhotoFond/2.png" alt="Clavier Ordinateur">
-      <h2>SERVICES & <br> COMPÉTENCES</h2>
+      <h2 data-aos="fade-right" data-aos-duration="1000">SERVICES & <br> COMPÉTENCES</h2>
       <div class="competences">
-        <div class="competence">
+        <div class="competence" data-aos="slide-right" data-aos-duration="2000">
           <img src="@/assets/Icon/15.png" alt="Icon Ordinateur">
           <div class="text-competence">
             <h4>CRÉATION DE SITES WEB</h4>
             <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti dolorum sed eum aliquid! Repellat ab doloremque sunt necessitatibus </h5>
           </div>
         </div>
-        <div class="competence">
+        <div class="competence" data-aos="slide-left" data-aos-duration="2000">
           <img src="@/assets/Icon/16.png" alt="Icon Roulement">
           <div class="text-competence">
             <h4>MAINTENANCE & REPRISE</h4>
             <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti dolorum sed eum aliquid! Repellat ab doloremque sunt necessitatibus </h5>
           </div>
         </div>
-        <div class="competence">
+        <div class="competence" data-aos="slide-right" data-aos-duration="2000" data-aos-offset="200">
           <img src="@/assets/Icon/17.png" alt="Icon fusée">
           <div class="text-competence">
             <h4>SEO & RÉFÉRENCEMENT</h4>

@@ -89,8 +89,11 @@ export default {
       color: #fff;
       margin-left: 100pt;
       padding-bottom: 1vh;
+      border: 0px solid transparent;
+      transition: border 1s .1s;
       &.router-link-exact-active {
         border-bottom: 1px solid #89815F;
+        
       }
     }
   }

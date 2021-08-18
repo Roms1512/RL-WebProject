@@ -78,7 +78,7 @@ export default {
       height: 90vh;
     }
     h1 {
-      font-weight: bold;
+      font-weight: 600;
       font-size: 100px;
       color: #fff;
     }
