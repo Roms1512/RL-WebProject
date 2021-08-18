@@ -33,10 +33,9 @@ export default {
 <style lang="scss">
 #portefolio {
   height: 100vh;
-  background: url(../assets/Fond/2.png);
+  background: linear-gradient(to right, #2A2A2A, #010101);
   position: relative;
   top: -18vh;
-  left: -1px;
 
   header {
     text-align: left;

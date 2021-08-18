@@ -24,7 +24,7 @@
         </div>
       </div>
       <h3>SI VOUS AVEZ DES QUESTIONS,<br>ENVOYER NOUS UN MESSAGE</h3>
-      <form action="">
+      <form method="post" action="">
         <input type="text" placeholder="NOM, PRÉNOM" required>
         <input type="email" placeholder="E-MAIL" required>
         <select name="sujet" id="sujet" required>
@@ -58,10 +58,9 @@ export default {
 <style lang="scss">
 #contact {
   height: 100vh;
-  background: url(../assets/Fond/2.png);
+  background: linear-gradient(to right, #2A2A2A, #010101);//url(../assets/Fond/2.png)
   position: relative;
   top: -18vh;
-  left: -1px;
 
   header {
     text-align: left;

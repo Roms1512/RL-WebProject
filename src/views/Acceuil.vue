@@ -68,7 +68,7 @@ export default {
 <style lang="scss">
 #acceuil {
   height: 100vh;
-  background: url(../assets/Fond/1.png);
+  background: linear-gradient(to left, #2A2A2A, #010101);
   position: relative;
   top: -18vh;
   a {
