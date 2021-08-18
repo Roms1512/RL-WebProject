@@ -40,6 +40,7 @@
     }
   }
   .nav-bar {
+    z-index: 10;
     a {
       margin-left: 100pt;
     }
