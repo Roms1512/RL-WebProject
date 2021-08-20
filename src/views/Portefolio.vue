@@ -11,10 +11,10 @@
           <img src="@/assets/PhotoProjet/1.png" alt="Projet 1">
         </div>
         <div class="colonne-2">
-          <div class="img" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="400" data-aos-once="true">
+          <div class="img img-1" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="400" data-aos-once="true">
             <img src="@/assets/PhotoProjet/1.png" alt="Projet 1">
           </div>
-          <div class="img" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true">
+          <div class="img img-2" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true">
             <img src="@/assets/PhotoProjet/1.png" alt="Projet 1">
           </div>
           <div class="description-projet" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
@@ -35,8 +35,8 @@
             <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eligendi expedita debitis repudiandae libero, deserunt dolorem eos! Exercitationem itaque nisi eius similique, earum molestias dignissimos architecto illo ipsum doloribus tempore!
             Molestias, sunt ratione! Adipisci praesentium earum magnam mollitia tempora suscipit possimus, laborum omnis et asperiores illum accusamus ipsam deserunt nobis reiciendis in animi laudantium nesciunt officiis quod ullam, impedit repellendus.</h5>
           </div>
-          <div class="img" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true"></div>
-          <div class="img" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true"></div>
+          <div class="img img-1" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true"></div>
+          <div class="img img-2" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true"></div>
         </div>
         <div class="colonne-2" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="1000" data-aos-once="true"></div>
       </div>
@@ -54,10 +54,10 @@
             <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eligendi expedita debitis repudiandae libero, deserunt dolorem eos! Exercitationem itaque nisi eius similique, earum molestias dignissimos architecto illo ipsum doloribus tempore!
             Molestias, sunt ratione! Adipisci praesentium earum magnam mollitia tempora suscipit possimus, laborum omnis et asperiores illum accusamus ipsam deserunt nobis reiciendis in animi laudantium nesciunt officiis quod ullam, impedit repellendus.</h5>
           </div>
-          <div class="img" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="400" data-aos-once="true">
+          <div class="img img-2" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="400" data-aos-once="true">
             <img src="@/assets/PhotoProjet/1.png" alt="Projet 1">
           </div>
-          <div class="img" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true">
+          <div class="img img-1" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true">
             <img src="@/assets/PhotoProjet/1.png" alt="Projet 1">
           </div>
           
@@ -69,8 +69,8 @@
       <!-- Projet 4 -->
       <div class="projet projet-2">
         <div class="colonne-1">
-          <div class="img" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true"></div>
-          <div class="img" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true"></div>
+          <div class="img img-1" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true"></div>
+          <div class="img img-2" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true"></div>
           <div class="description-projet" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="400" data-aos-once="true">
             <h4>PROJET 4</h4>
             <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eligendi expedita debitis repudiandae libero, deserunt dolorem eos! Exercitationem itaque nisi eius similique, earum molestias dignissimos architecto illo ipsum doloribus tempore!
@@ -174,7 +174,6 @@ export default {
             }
             img:nth-of-type(2) {
               object-fit:cover;
-              object-position: left bottom;
             }
           }
           .description-projet {
@@ -207,6 +206,109 @@ export default {
       height: 2px;
       width: 60vw;
       background: #89815F;
+    }
+  }
+
+  @media screen and(max-width: 1366px) {
+    section {
+      .projet-1 {
+        .colonne-2 {
+          .img-1 {
+            height: 40vh;
+            img {
+              height: 40vh !important;
+            }
+          }
+          .img-2 {
+            display: none;
+          }
+          .description-projet {
+            height: 57vh;
+          }
+        }
+      }
+      .projet-2 {
+        .colonne-1 {
+          .img-1 {
+            height: 40vh;
+            img {
+              height: 40vh !important;
+            }
+          }
+          .img-2 {
+            display: none;
+          }
+          .description-projet {
+            height: 57vh;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and(max-width: 1024px) {
+
+    header {
+      img {
+        top: -15vh;
+        height: 110vh;
+        right: -70vw;
+      }
+    }
+
+    section {
+      padding-bottom: 5vh;
+      .projet-1 {
+        flex-direction: column-reverse;
+        height: 88vh;
+        margin-bottom: 5vh;
+        .colonne-1, .colonne-2 {
+          margin-top: 5vh;
+          width: 100%;
+          img {
+            margin-top: 0 !important;
+            height: 40vh;
+          }
+        }
+        .colonne-1 {
+          height: 40vh;
+          margin-top: 0;
+        }
+        .colonne-2 {
+          .description-projet {
+            height: 40vh;
+          }
+          .img {
+            display: none;
+          }
+        }
+      }
+      .projet-2 {
+        flex-direction: column-reverse;
+        height: 88vh;
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+        .colonne-1, .colonne-2 {
+          margin-top: 5vh;
+          width: 100%;
+          img {
+            margin-top: 0 !important;
+            height: 40vh;
+          }
+        }
+        .colonne-1 {
+          height: 40vh;
+          .img {
+            display: none;
+          }
+        }
+        .colonne-2 {
+          margin-top: 0;
+          .description-projet {
+            height: 40vh;
+          }
+        }
+      }
     }
   }
 }
