@@ -6,9 +6,8 @@
     </header>
     <section>
       <h5 class="description">
-        <span>Petite Description :</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi vitae asperiores alias eveniet odit dicta! Obcaecati eos enim ipsum eaque nobis sequi perspiciatis nihil quasi quaerat, eligendi similique magni placeat?
-        In tempora quia officia, fugit quisquam libero! Aliquid, hic quasi debitis, quisquam qui ea delectus, sed nostrum magni modi pariatur quo distinctio reiciendis vitae assumenda quia maiores? Laborum, eius molestias?
-        Nulla fugiat obcaecati quos, ullam sunt vitae autem. Nisi provident autem doloribus aliquid error fuga. Ducimus praesentium sunt nulla voluptate facere ad numquam at magni, sed qui hic inventore voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <span class="debut">RL WebProject :</span> Nous sommes actuellement une micro-entreprise de développement web basé à <span>Embrun</span>, au cœur des <span>Hautes Alpes</span>.<br>
+        Nous vous proposons un service de <span>Création</span> ou de <span>Reprise</span> de Site Web avec l’assurance de respecter les <span>recommandations SEO de Google</span>. Nous travaillons en étroite collaboration avec des <span>designers freelance</span> et un <span>photographe / vidéaste Professionnel</span>, ce qui nous permet de vous garantir un <span>design moderne</span> avec des <span>photos et des vidéos de grande qualité</span>.
       </h5>
       <div class="all-service">
         <img src="@/assets/PhotoFond/4.png" alt="Écouteur et Téléphone Apple" data-aos="slide-right" data-aos-duration="1500" data-aos-offset="300" data-aos-once="true" data-aos-delay="500">
@@ -108,11 +107,15 @@ export default {
     }
     .description {
       padding: 3vh 0;
+      line-height: 2.8vh;
       width: 60vw;
       height: 25vh;
       margin: auto;
+      .debut {
+        margin-right: 15px;
+        font-size: large;
+      }
       span {
-        margin-right: 20px;
         font-weight: 400;
       }
     }

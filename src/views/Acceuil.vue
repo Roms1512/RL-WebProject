@@ -31,7 +31,7 @@
           <img src="@/assets/Icon/15.png" alt="Icon Ordinateur">
           <div class="text-competence">
             <h4>CRÉATION DE SITES WEB</h4>
-            <h5>Besoin d’un site web Professionnel pour vous ou votre entreprise ? Site Vitrine, Site Sur Mesure ? Vous ne savais pas quoi choisir ? Pas de panique, nous sommes là pour vous aider à choisir la meilleure solution et à créer un site web adaptée à votre activité(s).</h5>
+            <h5>Besoin d’un site web Professionnel pour vous ou votre entreprise ? Site Vitrine, OnePage, Site Sur Mesure ? Vous ne savais pas quoi choisir ? Pas de panique, nous sommes là pour vous aider à choisir la meilleure solution et à créer un site web adaptée à votre activité(s).</h5>
           </div>
         </div>
         <div class="competence" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1500" data-aos-once="true">
