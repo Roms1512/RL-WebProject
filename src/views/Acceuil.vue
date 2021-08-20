@@ -7,16 +7,17 @@
       <router-link to="/contact">CONTACT</router-link>
     </header>
     <section>
-      <h2 data-aos="fade-left" data-aos-duration="1000">QUELQUES PROJETS RÉALISÉS<br>PAR NOS SOINS</h2>
-      <h5 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">Chaque projet est réalisés sur mesures pour<br>correspondre à vos besoins</h5>
+      <h2 data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">QUELQUES PROJETS RÉALISÉS<br>PAR NOS SOINS</h2>
+      <h5 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Chaque projet est réalisés sur mesures pour<br>correspondre à vos besoins</h5>
       <div class="projets">
-        <div class="projet" data-aos="flip-left" data-aos-duration="2500" data-aos-offset="350">
+        <div class="projet" data-aos="flip-left" data-aos-duration="2500" data-aos-offset="350" data-aos-once="true">
+          <img src="@/assets/PhotoProjet/1.png" alt="projet 1">
+          <p>Open Classrooms <br>Projet d'écoles, SEO & Référencement</p>
+        </div>
+        <div class="projet" data-aos="flip-left" data-aos-duration="2500" data-aos-delay="700" data-aos-offset="350" data-aos-once="true">
           <p>Quelques mots de <br>présentation : clients etc etc</p>
         </div>
-        <div class="projet" data-aos="flip-left" data-aos-duration="2500" data-aos-delay="700" data-aos-offset="350">
-          <p>Quelques mots de <br>présentation : clients etc etc</p>
-        </div>
-        <div class="projet" data-aos="flip-left" data-aos-duration="2500" data-aos-delay="1400" data-aos-offset="350">
+        <div class="projet" data-aos="flip-left" data-aos-duration="2500" data-aos-delay="1400" data-aos-offset="350" data-aos-once="true">
           <p>Quelques mots de <br>présentation : clients etc etc</p>
         </div>
       </div>
@@ -24,27 +25,27 @@
     </section>
     <article>
       <img src="@/assets/PhotoFond/2.png" alt="Clavier Ordinateur">
-      <h2 data-aos="fade-right" data-aos-duration="1000">SERVICES & <br> COMPÉTENCES</h2>
+      <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">SERVICES & <br> COMPÉTENCES</h2>
       <div class="competences">
-        <div class="competence" data-aos="slide-right" data-aos-duration="2000">
+        <div class="competence" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
           <img src="@/assets/Icon/15.png" alt="Icon Ordinateur">
           <div class="text-competence">
             <h4>CRÉATION DE SITES WEB</h4>
-            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti dolorum sed eum aliquid! Repellat ab doloremque sunt necessitatibus </h5>
+            <h5>Besoin d’un site web Professionnel pour vous ou votre entreprise ? Site Vitrine, Site Sur Mesure ? Vous ne savais pas quoi choisir ? Pas de panique, nous sommes là pour vous aider à choisir la meilleure solution et à créer un site web adaptée à votre activité(s).</h5>
           </div>
         </div>
-        <div class="competence" data-aos="slide-left" data-aos-duration="2000">
+        <div class="competence" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1500" data-aos-once="true">
           <img src="@/assets/Icon/16.png" alt="Icon Roulement">
           <div class="text-competence">
             <h4>MAINTENANCE & REPRISE</h4>
-            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti dolorum sed eum aliquid! Repellat ab doloremque sunt necessitatibus </h5>
+            <h5>Vous avez déjà un site Internet et vous souhaitez, le Sécuriser, le Mettre à Jour, Refaire son Design ou même l’Optimiser, venez vers nous, nous vous aiderons dans vos démarches.</h5>
           </div>
         </div>
-        <div class="competence" data-aos="slide-right" data-aos-duration="2000" data-aos-offset="200">
+        <div class="competence" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200" data-aos-offset="350" data-aos-once="true">
           <img src="@/assets/Icon/17.png" alt="Icon fusée">
           <div class="text-competence">
             <h4>SEO & RÉFÉRENCEMENT</h4>
-            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti dolorum sed eum aliquid! Repellat ab doloremque sunt necessitatibus </h5>
+            <h5>Nous vous garantissons un site web qui sera fluide pour vos utilisateurs, qui respect les recommandations SEO de Google et qui vous fera monter dans les résultats de recherches.</h5>
           </div>
         </div>
       </div>
@@ -137,11 +138,17 @@ export default {
       display: flex;
       justify-content: space-between;
       .projet {
+        position: relative;
         background: rgba(255, 255, 255, 0.692);
         width: 23vw;
         height: 70vh;
+        img {
+          object-fit: cover;
+          width: 23vw;
+          height: 70vh;
+        }
         p {
-          position: relative;
+          position: absolute;
           top: 72vh;
           text-align: left;
           font-weight: 300;

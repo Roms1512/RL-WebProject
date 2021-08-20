@@ -1,9 +1,9 @@
 <template>
   <div id="footer">
-    <h2>RL WEBPROJECT</h2>
+    <router-link to="/" class="logo"><h2>RL WEBPROJECT</h2></router-link>
     <div class="reseaux">
-      <a class="icon" href="https://www.facebook.com/romain.lavaur.3/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-      <a class="icon" href="https://www.instagram.com/romain_lavaur_off/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a class="icon" href="https://www.facebook.com/romain.lavaur.3/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+      <a class="icon" href="https://www.instagram.com/romain_lavaur_off/?hl=fr" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
     </div>
     <div class="droit">
       <div class="copyright">
@@ -35,10 +35,13 @@ export default {
     padding: 0 1vw !important;
     margin-top: 0 !important;
   }
-  h2 {
-    letter-spacing: 10pt;
-    font-family: 'AlphaCentauri';
-    font-size: xx-large;
+  .logo {
+    padding: 0!important;
+    h2 {
+      letter-spacing: 10pt;
+      font-family: 'AlphaCentauri';
+      font-size: xx-large;
+    }
   }
   .reseaux, .droit {
     margin-top: 1vh;
@@ -62,6 +65,9 @@ export default {
       font-size: small;
       display: flex;
       align-items: center;
+      a {
+        font-weight: bold;
+      }
     }
     .copyright {
       i {

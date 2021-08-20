@@ -5,14 +5,79 @@
       <h1>PORTEFOLIO</h1>
     </header>
     <section>
+      <!-- Projet 1 -->
       <div class="projet projet-1">
-        <div class="colonne-1"></div>
-        <div class="colonne-2"></div>
+        <div class="colonne-1" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="1000" data-aos-once="true">
+          <img src="@/assets/PhotoProjet/1.png" alt="Projet 1">
+        </div>
+        <div class="colonne-2">
+          <div class="img" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="400" data-aos-once="true">
+            <img src="@/assets/PhotoProjet/1.png" alt="Projet 1">
+          </div>
+          <div class="img" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true">
+            <img src="@/assets/PhotoProjet/1.png" alt="Projet 1">
+          </div>
+          <div class="description-projet" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
+            <h4>PROJET 1</h4>
+            <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eligendi expedita debitis repudiandae libero, deserunt dolorem eos! Exercitationem itaque nisi eius similique, earum molestias dignissimos architecto illo ipsum doloribus tempore!
+            Molestias, sunt ratione! Adipisci praesentium earum magnam mollitia tempora suscipit possimus, laborum omnis et asperiores illum accusamus ipsam deserunt nobis reiciendis in animi laudantium nesciunt officiis quod ullam, impedit repellendus.</h5>
+          </div>
+        </div>
       </div>
-      <div class="line"></div>
+
+      <div class="line" data-aos="fade-in" data-aos-duration="500" data-aos-once="true"></div>
+
+      <!-- Projet 2 -->
       <div class="projet projet-2">
-        <div class="colonne-1"></div>
-        <div class="colonne-2"></div>
+        <div class="colonne-1">
+          <div class="description-projet" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="400" data-aos-once="true">
+            <h4>PROJET 2</h4>
+            <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eligendi expedita debitis repudiandae libero, deserunt dolorem eos! Exercitationem itaque nisi eius similique, earum molestias dignissimos architecto illo ipsum doloribus tempore!
+            Molestias, sunt ratione! Adipisci praesentium earum magnam mollitia tempora suscipit possimus, laborum omnis et asperiores illum accusamus ipsam deserunt nobis reiciendis in animi laudantium nesciunt officiis quod ullam, impedit repellendus.</h5>
+          </div>
+          <div class="img" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true"></div>
+          <div class="img" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true"></div>
+        </div>
+        <div class="colonne-2" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="1000" data-aos-once="true"></div>
+      </div>
+
+      <div class="line" data-aos="fade-in" data-aos-duration="500" data-aos-once="true"></div>
+
+      <!-- Projet 3 -->
+      <div class="projet projet-1">
+        <div class="colonne-1" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="1000" data-aos-once="true">
+          <img src="@/assets/PhotoProjet/1.png" alt="Projet 1">
+        </div>
+        <div class="colonne-2">
+          <div class="description-projet" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
+            <h4>PROJET 3</h4>
+            <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eligendi expedita debitis repudiandae libero, deserunt dolorem eos! Exercitationem itaque nisi eius similique, earum molestias dignissimos architecto illo ipsum doloribus tempore!
+            Molestias, sunt ratione! Adipisci praesentium earum magnam mollitia tempora suscipit possimus, laborum omnis et asperiores illum accusamus ipsam deserunt nobis reiciendis in animi laudantium nesciunt officiis quod ullam, impedit repellendus.</h5>
+          </div>
+          <div class="img" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="400" data-aos-once="true">
+            <img src="@/assets/PhotoProjet/1.png" alt="Projet 1">
+          </div>
+          <div class="img" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true">
+            <img src="@/assets/PhotoProjet/1.png" alt="Projet 1">
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="line" data-aos="fade-in" data-aos-duration="500" data-aos-once="true"></div>
+
+      <!-- Projet 4 -->
+      <div class="projet projet-2">
+        <div class="colonne-1">
+          <div class="img" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true"></div>
+          <div class="img" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true"></div>
+          <div class="description-projet" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="400" data-aos-once="true">
+            <h4>PROJET 4</h4>
+            <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eligendi expedita debitis repudiandae libero, deserunt dolorem eos! Exercitationem itaque nisi eius similique, earum molestias dignissimos architecto illo ipsum doloribus tempore!
+            Molestias, sunt ratione! Adipisci praesentium earum magnam mollitia tempora suscipit possimus, laborum omnis et asperiores illum accusamus ipsam deserunt nobis reiciendis in animi laudantium nesciunt officiis quod ullam, impedit repellendus.</h5>
+          </div>
+        </div>
+        <div class="colonne-2" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="1000" data-aos-once="true"></div>
       </div>
     </section>
     <Footer/>
@@ -69,9 +134,74 @@ export default {
         margin: auto;
         height: 100vh;
         width: 38vw;
-        background: #c1c1c1;
+        .description-projet {
+          text-align: left;
+          padding: 2vw;
+          h4 {
+            font-size: x-large;
+            font-weight: 500;
+            margin-bottom: 3vh;
+          }
+          h5 {
+            font-weight: 350;
+            font-size: medium;
+            line-height: 2.5vh;
+          }
+        }
       }
     }
+    .projet-1 {
+        .colonne-1 {
+          background: #c1c1c1;
+          img {
+            margin-top: 3vh;
+            object-fit: cover;
+            height: 97vh;
+            width: 90%;
+          }
+        }
+        .colonne-2 {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          .img {
+            background: #c1c1c1;
+            height: 26vh;
+            img:nth-of-type(1) {
+              object-fit:cover;
+              height: 26vh;
+              width: 80%;
+            }
+            img:nth-of-type(2) {
+              object-fit:cover;
+              object-position: left bottom;
+            }
+          }
+          .description-projet {
+            height: 42vh;
+            background: #89815F;
+          }
+        }
+    }
+    .projet-2 {
+        .colonne-1 {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          .description-projet {
+            height: 42vh;
+            background: #404042;
+          }
+          .img {
+            background: #262626;
+            height: 26vh;
+          }
+        }
+        .colonne-2{
+          background: #262626;
+        }
+    }
+    
     .line {
       margin: auto;
       height: 2px;

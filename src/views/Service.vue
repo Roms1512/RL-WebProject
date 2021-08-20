@@ -11,17 +11,17 @@
         Nulla fugiat obcaecati quos, ullam sunt vitae autem. Nisi provident autem doloribus aliquid error fuga. Ducimus praesentium sunt nulla voluptate facere ad numquam at magni, sed qui hic inventore voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </h5>
       <div class="all-service">
-        <img src="@/assets/PhotoFond/4.png" alt="Écouteur et Téléphone Apple" data-aos="slide-right" data-aos-duration="1500" data-aos-offset="300" data-aos-once="false" data-aos-delay="500">
-        <img src="@/assets/PhotoFond/5.png" alt="Clavier Apple" data-aos="slide-left" data-aos-duration="1500" data-aos-offset="300" data-aos-once="false" data-aos-delay="500">
-        <div class="single-service" data-aos="fade-right" data-aos-duration="2000">
+        <img src="@/assets/PhotoFond/4.png" alt="Écouteur et Téléphone Apple" data-aos="slide-right" data-aos-duration="1500" data-aos-offset="300" data-aos-once="true" data-aos-delay="500">
+        <img src="@/assets/PhotoFond/5.png" alt="Clavier Apple" data-aos="slide-left" data-aos-duration="1500" data-aos-offset="300" data-aos-once="true" data-aos-delay="500">
+        <div class="single-service" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
           <h4>CRÉATION DE SITES WEB</h4>
           <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi, nesciunt commodi, rem, nobis mollitia nostrum ab ipsum sequi tempore sunt maxime consequatur excepturi deserunt illo ullam repellat ad sapiente.</h5>
         </div>
-        <div class="single-service" data-aos="fade-left" data-aos-duration="2000">
+        <div class="single-service" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
           <h4>MAINTENANCE & REPRISE</h4>
           <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi, nesciunt commodi, rem, nobis mollitia nostrum ab ipsum sequi tempore sunt maxime consequatur excepturi deserunt illo ullam repellat ad sapiente.</h5>
         </div>
-        <div class="single-service" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="800">
+        <div class="single-service" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="800" data-aos-once="true">
           <h4>SEO & RÉFÉRENCEMENT</h4>
           <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi, nesciunt commodi, rem, nobis mollitia nostrum ab ipsum sequi tempore sunt maxime consequatur excepturi deserunt illo ullam repellat ad sapiente.</h5>
         </div>
@@ -30,27 +30,27 @@
     <article>
       <h2>COMPÉTENCES</h2>
       <div class="competences">
-        <div class="single-competence">
+        <div class="single-competence" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
           <img src="@/assets/Icon/7.png" alt="Logo SASS">
           <p>SASS</p>
         </div>
-        <div class="single-competence">
+        <div class="single-competence" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400" data-aos-once="true">
           <img src="@/assets/Icon/8.png" alt="Logo Vue.JS">
           <p>VUE.JS</p>
         </div>
-        <div class="single-competence">
+        <div class="single-competence" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800" data-aos-once="true">
           <img src="@/assets/Icon/9.png" alt="Logo MongoDB">
           <p>MONGODB</p>
         </div>
-        <div class="single-competence">
+        <div class="single-competence" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1200" data-aos-once="true">
           <img class="express" src="@/assets/Icon/10.png" alt="Logo Express.JS">
           <p>EXPRESS.JS</p>
         </div>
-        <div class="single-competence">
+        <div class="single-competence" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1600" data-aos-once="true">
           <img src="@/assets/Icon/11.png" alt="Logo Node.JS">
           <p>NODE.JS</p>
         </div>
-        <div class="single-competence">
+        <div class="single-competence" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="2000" data-aos-once="true">
           <img src="@/assets/Icon/12.png" alt="Logo MySQL">
           <p>MYSQL</p>
         </div>
@@ -113,6 +113,7 @@ export default {
       margin: auto;
       span {
         margin-right: 20px;
+        font-weight: 400;
       }
     }
     .all-service {

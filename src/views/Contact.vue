@@ -5,7 +5,7 @@
       <h1>CONTACT</h1>
     </header>
     <section>
-      <h2>GET IN TOUCH WITH US</h2>
+      <h2>CONTACTEZ-NOUS</h2>
       <div class="info-contact">
         <div class="info">
           <img src="@/assets/Icon/1.png" alt="Icon Téléphone">
@@ -25,9 +25,9 @@
       </div>
       <h3>SI VOUS AVEZ DES QUESTIONS,<br>ENVOYER NOUS UN MESSAGE</h3>
       <form method="post" action="">
-        <input type="text" placeholder="NOM, PRÉNOM" required>
-        <input type="email" placeholder="E-MAIL" required>
-        <select name="sujet" id="sujet" required>
+        <input type="text" placeholder="NOM, PRÉNOM" aria-label="Nom Prenom" required>
+        <input type="email" placeholder="E-MAIL" aria-label="Email" required>
+        <select name="sujet" id="sujet" aria-label="Sujet du message" required>
           <option value="">SUJET</option>
           <option value="devis">J'ai besoin d'un devis</option>
           <option value="création-pro">Création d'un site web pour mon entreprise</option>
@@ -36,7 +36,7 @@
           <option value="maintenance">Maintenance de mon site</option>
           <option value="Réferencement">Améliorer le référencement de mon site</option>
         </select>
-        <textarea name="message" id="message" maxlength="1000" placeholder="MESSAGE ..." required></textarea>
+        <textarea name="message" id="message" maxlength="1000" placeholder="MESSAGE ..." aria-label="Ecrivez votre message" required></textarea>
         <button>ENVOYEZ !</button>
       </form>
     </section>
@@ -58,7 +58,7 @@ export default {
 <style lang="scss">
 #contact {
   height: 100vh;
-  background: linear-gradient(to right, #2A2A2A, #010101);//url(../assets/Fond/2.png)
+  background: linear-gradient(to right, #2A2A2A, #010101);
   position: relative;
   top: -18vh;
 
