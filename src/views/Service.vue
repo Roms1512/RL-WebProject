@@ -138,7 +138,7 @@ export default {
         &:nth-child(2) {
           opacity: 25%;
           height: 70vh;
-          top: 45vh;
+          top: 46vh;
           right: -36vw;
         }
       }
@@ -193,6 +193,59 @@ export default {
             position: absolute;
             right: 6.8vw;
             bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and(max-width: 1366px) {
+    section {
+      .all-service {
+        img {
+          height: 55vh;
+          &:nth-child(1) {
+            top: 12vh;
+            left: -20vw;
+          }
+          &:nth-child(2) {
+            height: 60vh;
+            top: 52vh;
+            right: -40vw;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and(max-width: 1024px) {
+    header {
+      img {
+        zoom: 0.6;
+        top: 20vh;
+      }
+    }
+
+    section {
+      .description {
+        width: 85vw;
+      }
+      .all-service {
+        img {
+          height: 40vh;
+          &:nth-child(1) {
+            top: 12vh;
+          }
+          &:nth-child(2) {
+            height: 50vh;
+            top: 52vh;
+            right: -40vw;
+          }
+        }
+        .single-service {
+          width: 50vw;
+          &:nth-of-type(2) {
+            left: 20vw;
           }
         }
       }

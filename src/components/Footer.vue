@@ -79,5 +79,9 @@ export default {
       }
     }
   }
+
+  @media screen and(max-width: 1024px) {
+    height: 13vh;
+  }
 }
 </style>

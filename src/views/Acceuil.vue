@@ -15,13 +15,15 @@
           <p>Open Classrooms <br>Projet d'écoles, SEO & Référencement</p>
         </div>
         <div class="projet" data-aos="flip-left" data-aos-duration="2500" data-aos-delay="700" data-aos-offset="350" data-aos-once="true">
+          <img src="@/assets/PhotoProjet/1.png" alt="projet 1">
           <p>Quelques mots de <br>présentation : clients etc etc</p>
         </div>
         <div class="projet" data-aos="flip-left" data-aos-duration="2500" data-aos-delay="1400" data-aos-offset="350" data-aos-once="true">
+          <img src="@/assets/PhotoProjet/1.png" alt="projet 1">
           <p>Quelques mots de <br>présentation : clients etc etc</p>
         </div>
       </div>
-      <router-link to="/portefolio">VOIR PLUS</router-link>
+      <router-link to="/portefolio" class="button">VOIR PLUS</router-link>
     </section>
     <article>
       <img src="@/assets/PhotoFond/2.png" alt="Clavier Ordinateur">
@@ -68,9 +70,8 @@ export default {
 
 <style lang="scss">
 #acceuil {
-  height: 100vh;
-  background: linear-gradient(to left, #2A2A2A, #010101);
-  position: relative;
+  position: absolute;
+  width: 100%;
   top: -18vh;
   a {
     padding: 8px 40px;
@@ -81,10 +82,11 @@ export default {
   }
 
   header {
+    background: linear-gradient(to left, #2A2A2A, #010101);
     text-align: left;
     margin-left: 10vw;
     padding-top: 38vh;
-    height: 100vh;
+    height: 118vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -213,6 +215,47 @@ export default {
             font-weight: 300;
             font-size: medium;
           }
+        }
+      }
+    }
+  }
+
+  @media screen and(max-width: 1366px) {
+    header {
+      justify-content: center;
+    }
+
+    section {
+      position: relative;
+      height: 300vh;
+      .projets {
+        flex-direction: column;
+        align-items: center;
+        .projet {
+          width: 85vw;
+          height: 80vh;
+          margin-bottom: 5vh;
+          img {
+            width: 100%;
+            height: 80vh;
+          }
+        }
+      }
+      .button {
+        position: relative;
+        top: 172vh;
+      }
+    }
+  }
+  @media screen and(max-width: 1024px){
+    article {
+      height: 100vh;
+      .competences {
+        height: 70vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        .competence {
+          width: 100%;
         }
       }
     }
