@@ -1,3 +1,4 @@
+
 <template>
   <div id="contact" class="page">
     <header>
@@ -24,9 +25,9 @@
         </div>
       </div>
       <h3>SI VOUS AVEZ DES QUESTIONS,<br>ENVOYER NOUS UN MESSAGE</h3>
-      <form method="post" action="">
-        <input type="text" placeholder="NOM, PRÉNOM" aria-label="Nom Prenom" required>
-        <input type="email" placeholder="E-MAIL" aria-label="Email" required>
+      <form method="" action="">
+        <input type="text" name="nom" placeholder="NOM, PRÉNOM" aria-label="Nom Prenom" required>
+        <input type="email" name="email" placeholder="E-MAIL" aria-label="Email" required>
         <select name="sujet" id="sujet" aria-label="Sujet du message" required>
           <option value="">SUJET</option>
           <option value="devis">J'ai besoin d'un devis</option>
@@ -37,7 +38,7 @@
           <option value="Réferencement">Améliorer le référencement de mon site</option>
         </select>
         <textarea name="message" id="message" maxlength="1000" placeholder="MESSAGE ..." aria-label="Ecrivez votre message" required></textarea>
-        <button>ENVOYEZ !</button>
+        <button @click="submitForm">ENVOYEZ !</button>
       </form>
     </section>
     <Footer/>
@@ -46,11 +47,15 @@
 
 <script>
 import Footer from '@/components/Footer'
+import { mapMutations } from 'vuex'
 
 export default {
   name: 'Contact',
   components: {
     Footer
+  },
+  computed: {
+    ...mapMutations(['submitForm'])
   }
 }
 </script>

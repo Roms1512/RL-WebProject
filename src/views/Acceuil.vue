@@ -10,17 +10,17 @@
       <h2 data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">QUELQUES PROJETS RÉALISÉS<br>PAR NOS SOINS</h2>
       <h5 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Chaque projet est réalisés sur mesures pour<br>correspondre à vos besoins</h5>
       <div class="projets">
-        <div class="projet" data-aos="flip-left" data-aos-duration="2500" data-aos-offset="350" data-aos-once="true">
+        <div class="projet" data-aos="fade-in" data-aos-duration="2500" data-aos-offset="350" data-aos-once="true">
           <img src="@/assets/PhotoProjet/1.png" alt="projet 1">
           <p>Open Classrooms <br>Projet d'écoles, SEO & Référencement</p>
         </div>
-        <div class="projet" data-aos="flip-left" data-aos-duration="2500" data-aos-delay="700" data-aos-offset="350" data-aos-once="true">
-          <img src="@/assets/PhotoProjet/1.png" alt="projet 1">
-          <p>Quelques mots de <br>présentation : clients etc etc</p>
+        <div class="projet" data-aos="fade-in" data-aos-duration="2500" data-aos-delay="700" data-aos-offset="350" data-aos-once="true">
+          <img src="@/assets/PhotoProjet/3.png" alt="projet 2">
+          <p>Entrainement <br>Reproduction d'une Template</p>
         </div>
-        <div class="projet" data-aos="flip-left" data-aos-duration="2500" data-aos-delay="1400" data-aos-offset="350" data-aos-once="true">
-          <img src="@/assets/PhotoProjet/1.png" alt="projet 1">
-          <p>Quelques mots de <br>présentation : clients etc etc</p>
+        <div class="projet" data-aos="fade-in" data-aos-duration="2500" data-aos-delay="1400" data-aos-offset="350" data-aos-once="true">
+          <img src="@/assets/PhotoProjet/9.png" alt="projet 3">
+          <p>Entrainement <br>Reproduction d'une Template</p>
         </div>
       </div>
       <router-link to="/portefolio" class="button">VOIR PLUS</router-link>
@@ -146,6 +146,7 @@ export default {
         height: 70vh;
         img {
           object-fit: cover;
+          object-position: center top;
           width: 23vw;
           height: 70vh;
         }
