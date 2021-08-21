@@ -11,13 +11,13 @@
           <img src="@/assets/PhotoProjet/1.png" alt="Projet 1">
         </div>
         <div class="colonne-2">
-          <div class="img img-1" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="400" data-aos-once="true">
+          <div class="img img-1" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1500" data-aos-once="true">
             <img src="@/assets/PhotoProjet/2.png" alt="Projet 1">
           </div>
-          <div class="img img-2" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true">
+          <div class="img img-2" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="2000" data-aos-once="true">
             <img src="@/assets/PhotoProjet/2.png" alt="Projet 1">
           </div>
-          <div class="description-projet" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
+          <div class="description-projet" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1500" data-aos-once="true">
             <h4>PROJET 1</h4>
             <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eligendi expedita debitis repudiandae libero, deserunt dolorem eos! Exercitationem itaque nisi eius similique, earum molestias dignissimos architecto illo ipsum doloribus tempore!
             Molestias, sunt ratione! Adipisci praesentium earum magnam mollitia tempora suscipit possimus, laborum omnis et asperiores illum accusamus ipsam deserunt nobis reiciendis in animi laudantium nesciunt officiis quod ullam, impedit repellendus.</h5>
@@ -55,15 +55,15 @@
           <img src="@/assets/PhotoProjet/6.png" alt="Projet 3">
         </div>
         <div class="colonne-2">
-          <div class="description-projet" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
+          <div class="description-projet" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1500" data-aos-once="true">
             <h4>PROJET 3</h4>
             <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eligendi expedita debitis repudiandae libero, deserunt dolorem eos! Exercitationem itaque nisi eius similique, earum molestias dignissimos architecto illo ipsum doloribus tempore!
             Molestias, sunt ratione! Adipisci praesentium earum magnam mollitia tempora suscipit possimus, laborum omnis et asperiores illum accusamus ipsam deserunt nobis reiciendis in animi laudantium nesciunt officiis quod ullam, impedit repellendus.</h5>
           </div>
-          <div class="img img-1" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
+          <div class="img img-1" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="2000" data-aos-once="true">
             <img src="@/assets/PhotoProjet/8.png" alt="Projet 3">
           </div>
-          <div class="img img-2" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000" data-aos-offset="400" data-aos-once="true">
+          <div class="img img-2" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1500" data-aos-once="true">
             <img src="@/assets/PhotoProjet/7.png" alt="Projet 3">
           </div>
           
@@ -75,13 +75,13 @@
       <!-- Projet 4 -->
       <div class="projet projet-2">
         <div class="colonne-1">
-          <div class="img img-1" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true">
+          <div class="img img-1" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
             <img src="@/assets/PhotoProjet/10.png" alt="Projet 4">
           </div>
-          <div class="img img-2" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
+          <div class="img img-2" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true">
             <img src="@/assets/PhotoProjet/11.png" alt="Projet 4">
           </div>
-          <div class="description-projet" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="400" data-aos-once="true">
+          <div class="description-projet" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
             <h4>PROJET 4</h4>
             <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eligendi expedita debitis repudiandae libero, deserunt dolorem eos! Exercitationem itaque nisi eius similique, earum molestias dignissimos architecto illo ipsum doloribus tempore!
             Molestias, sunt ratione! Adipisci praesentium earum magnam mollitia tempora suscipit possimus, laborum omnis et asperiores illum accusamus ipsam deserunt nobis reiciendis in animi laudantium nesciunt officiis quod ullam, impedit repellendus.</h5>
