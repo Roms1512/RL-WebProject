@@ -309,6 +309,9 @@ export default {
         zoom: 0.5;
         right: -25vw;
       }
+      h1 {
+        font-size: xx-large;
+      }
     }
     section {
       .all-service {
@@ -338,6 +341,22 @@ export default {
           img {
           height: 7vh;
         }
+        }
+      }
+    }
+  }
+  @media screen and(max-width: 375px) {
+    header {
+      img {
+        zoom: 0.4 !important;
+        top: 100vh !important;
+      }
+    }
+    section {
+      .description {
+        font-size: xx-small;
+        .debut {
+          font-size: small;
         }
       }
     }

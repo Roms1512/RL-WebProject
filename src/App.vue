@@ -147,5 +147,12 @@ export default {
       }
     }
   }
+  @media screen and(max-width: 375px) {
+    .nav-bar {
+      a {
+        font-size: x-small;
+      }
+    }
+  }
 }
 </style>

@@ -388,6 +388,8 @@ export default {
           font-size: large;
         }
         .competences {
+          margin: auto;
+          width: 90vw;
           .competence {
             .text-competence {
               h4 {
@@ -399,6 +401,22 @@ export default {
             }
           }
         }
+    }
+  }
+  @media screen and(max-width: 375px) {
+    section {
+      h2 {
+        font-size: medium;
+      }
+    }
+    article {
+      .competences {
+        .competence {
+          img {
+            height: 18vh;
+          }
+        }
+      }
     }
   }
 

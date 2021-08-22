@@ -275,6 +275,9 @@ export default {
       }
     }
     section {
+      h2 {
+        font-size: x-large;
+      }
       form {
         height: 70vh !important;
         input, select, textarea {
@@ -283,6 +286,26 @@ export default {
         input, select {
           height: 40px;
         }
+      }
+    }
+  }
+  @media screen and(max-width: 375px) {
+    header {
+      img {
+        zoom: 0.4;
+        top: 120vh;
+      }
+    }
+    section {
+      .info-contact {
+        .info {
+          img {
+            zoom: 0.08;
+          }
+        }
+      }
+      h3 {
+        font-size: smaller;
       }
     }
   }
