@@ -109,7 +109,6 @@ export default {
   background: linear-gradient(to right, #2A2A2A, #010101);
   position: relative;
   top: -18vh;
-
   header {
     text-align: left;
     margin-left: 10vw;
@@ -130,7 +129,6 @@ export default {
       color: #fff;
     }
   }
-
   section {
     background: #0E0E0E;
     .projet {
@@ -168,7 +166,7 @@ export default {
             margin-top: 3vh;
             object-fit: cover;
             object-position: center top;
-            height: 97vh;
+            height: 97%;
             width: 90%;
           }
         }
@@ -182,7 +180,7 @@ export default {
             img {
               object-fit:cover;
               height: 26vh;
-              width: 80%;
+              width: 90%;
             }
           }
           .img-1 {
@@ -212,7 +210,7 @@ export default {
             img {
               object-fit:cover;
               height: 26vh;
-              width: 80%;
+              width: 90%;
             }
           }
           .img-1 {
@@ -229,13 +227,6 @@ export default {
             height: 42vh;
             background: #404042;
           }
-          // .img {
-          //   background: #262626;
-          //   height: 26vh;
-          //   img {
-          //     object-fit: cover;
-          //   }
-          // }
         }
         .colonne-2{
           background: #262626;
@@ -243,12 +234,11 @@ export default {
             margin-top: 3vh;
             object-fit: cover;
             object-position: center top;
-            height: 97vh;
+            height: 97%;
             width: 90%;
           }
         }
     }
-    
     .line {
       margin: auto;
       height: 2px;
@@ -256,7 +246,6 @@ export default {
       background: #89815F;
     }
   }
-
   @media screen and(max-width: 1366px) {
     section {
       .projet-1 {
@@ -294,7 +283,6 @@ export default {
     }
   }
   @media screen and(max-width: 1024px) {
-
     header {
       img {
         top: -15vh;
@@ -302,7 +290,6 @@ export default {
         right: -70vw;
       }
     }
-
     section {
       padding-bottom: 5vh;
       .projet-1 {
@@ -369,10 +356,51 @@ export default {
       }
     }
   }
+  @media screen and(max-width: 540px) {
+    header {
+      img {
+        height: 100vh;
+        top: 0 !important;
+        right: -40vw !important;
+      }
+      h1 {
+        font-size: xxx-large;
+      }
+    }
+    section {
+      .projet-1 {
+        height: 110vh;
+        .colonne-1 {
+          height: 50vh;
+          img {
+            height: 50vh;
+          }
+        }
+        .colonne-2 {
+          .description-projet {
+            height: 50vh;
+          }
+        }
+      }
+      .projet-2 {
+        height: 110vh;
+        .colonne-1 {
+          height: 50vh;
+        }
+        .colonne-2 {
+          height: 50vh;
+          img {
+            height: 50vh ;
+          }
+        }
+      }
+    }
+  }
   @media screen and(max-height: 768px) {
     header {
       img {
-        right: -30vw;
+        top: -10vh;
+        right: -20vw;
       }
     }
   }

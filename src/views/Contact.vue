@@ -100,8 +100,7 @@ export default {
       width: 60vw;
       height: 20vh;
       margin: 10vh auto;
-      display: flex;
-      
+      display: flex;    
       .info {
         width: 20vw;
         height: 12vh;
@@ -208,8 +207,7 @@ export default {
         font-size: xx-large;
       }
       .info-contact {
-        .info {
-          
+        .info {     
           h5 {
             font-size: x-small !important;
           }
@@ -226,13 +224,39 @@ export default {
       }
     }
   }
-  @media screen and(max-height: 768px) {
+  @media screen and(max-width: 540px) {
     section {
-      height: 170vh;
-      form {
-        height: 75vh;
+      height: 200vh !important;
+      h2 {
+        margin-bottom: 5vh;
+      }
+      .info-contact {
+        margin: 10vh auto !important;
+        height: 70vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .info {
+          height: 25vh;
+          &:nth-of-type(2) {
+            border-left: none;
+            border-right: none;
+            border-top: 2px solid #89815F;
+            border-bottom: 2px solid #89815F;
+            padding: 3vh 0;
+            margin: 0 0 4vh 0;
+          }
+        }
       }
     }
+  }
+  @media screen and(max-height: 768px) {
+          section {
+            height: 170vh;
+            form {
+              height: 75vh;
+            }
+          }
   }
 }
 </style>

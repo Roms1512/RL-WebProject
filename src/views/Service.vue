@@ -76,7 +76,6 @@ export default {
   background: linear-gradient(to right, #2A2A2A, #010101);
   position: relative;
   top: -18vh;
-
   header {
     text-align: left;
     margin-left: 10vw;
@@ -97,7 +96,6 @@ export default {
       color: #fff;
     }
   }
-
   section {
     background: #0E0E0E;
     height: 150vh;
@@ -161,7 +159,6 @@ export default {
       }
     }
   }
-
   article {
     height: 82vh;
     h2 {
@@ -171,7 +168,7 @@ export default {
       font-size: xxx-large;
     }
     .competences {
-      margin:auto;
+      margin: auto;
       width: 60vw;
       display: flex;
       flex-wrap: wrap;
@@ -223,7 +220,6 @@ export default {
         top: 20vh;
       }
     }
-
     section {
       .description {
         width: 85vw;
@@ -256,6 +252,51 @@ export default {
       }
       h1 {
         font-size: 70px;
+      }
+    }
+    article {
+      h2 {
+        font-size: xx-large;
+      }
+    }
+  }
+  @media screen and(max-width: 540px) {
+    header {
+      img {
+        zoom: 0.6 !important;
+        top: 60vh !important;
+      }
+      h1 {
+        font-size: xxx-large;
+      }
+    }
+    section {
+      height: 180vh !important;
+      .description {
+        height: 40vh;
+        font-size: x-small;
+        .debut {
+          font-size: medium;
+        }
+      }
+      .all-service {
+        height: 115vh;
+        .single-service {
+          h4 {
+            font-size: medium;
+          }
+          h5 {
+            font-size: small;
+          }
+        }
+      }
+    }
+    article {
+      height: 105vh;
+      .competences {
+        .single-competence {
+          width: 25vw;
+        }
       }
     }
   }
