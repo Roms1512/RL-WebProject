@@ -97,7 +97,6 @@ export default {
       }
     }
   }
-
   @media screen and(max-width: 1024px) {
     .nav-bar {
       a {
@@ -105,7 +104,6 @@ export default {
       }
     }
   }
-
   @media screen and(max-width: 768px) {
     flex-direction: column;
     justify-content: center !important;
@@ -123,6 +121,14 @@ export default {
       a {
         margin-left: 25pt;
         margin-right: 25pt;
+      }
+    }
+  }
+  @media screen and(max-width: 540px) {
+    .logo {
+      margin-top: 2vh;
+      p {
+        font-size: x-large;
       }
     }
   }

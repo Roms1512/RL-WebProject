@@ -79,11 +79,9 @@ export default {
       }
     }
   }
-
   @media screen and(max-width: 1024px) {
     height: 13vh;
   }
-
   @media screen and(max-width:768px) {
     .logo {
       h2 {
@@ -104,7 +102,21 @@ export default {
       }
     }
   }
-
+  @media screen and(max-width:540px) {
+    height: 22vh !important;
+    .reseaux {
+      font-size: xx-large !important;
+      text-align: center;
+      margin-top: 3vh !important;
+      padding-bottom: 0 !important;
+    }
+    .droit {
+      margin-top: 2.5vh;
+      height: 4vh;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
   @media screen and(max-height: 768px) {
     height: 18vh;
   }

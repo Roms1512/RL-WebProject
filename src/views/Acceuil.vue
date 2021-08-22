@@ -26,7 +26,7 @@
       <router-link to="/portefolio" class="button">VOIR PLUS</router-link>
     </section>
     <article>
-      <img src="@/assets/PhotoFond/2.png" alt="Clavier Ordinateur">
+      <img class="fond" src="@/assets/PhotoFond/2.png" alt="Clavier Ordinateur">
       <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">SERVICES & <br> COMPÉTENCES</h2>
       <div class="competences">
         <div class="competence" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
@@ -294,6 +294,57 @@ export default {
             h5 {
               font-size: small;
             }
+          }
+        }
+      }
+    }
+  }
+  @media screen and(max-width: 540px) {
+    header {
+      h1 {
+        font-size: xxx-large;
+      }
+      h5 {
+        font-size: medium;
+      }
+    }
+    section {
+      h2 {
+        font-size: x-large;
+      }
+      h5 {
+        font-size: small;
+      }
+      .projets {
+        .projet {
+          p {
+            font-size: x-small;
+          }
+        }
+      }
+    }
+    article {
+      height: 105vh !important;
+      .fond {
+        height: 105vh;
+      }
+      h2 {
+        font-size: x-large;
+      }
+      .competences {
+        height: 70vh;
+        .competence {
+          margin-top: 3vh;
+          .text-competence {
+            h4 {
+              font-size: small;
+            }
+            h5 {
+              font-size: x-small;
+            }
+          }
+          &:nth-of-type(3) {
+            margin-bottom: 5vh;
           }
         }
       }
