@@ -198,7 +198,6 @@ export default {
       }
     }
   }
-
   @media screen and(max-width: 1366px) {
     section {
       .all-service {
@@ -217,7 +216,6 @@ export default {
       }
     }
   }
-
   @media screen and(max-width: 1024px) {
     header {
       img {
@@ -251,7 +249,6 @@ export default {
       }
     }
   }
-
   @media screen and(max-width: 768px) {
     header {
       img {
@@ -259,6 +256,14 @@ export default {
       }
       h1 {
         font-size: 70px;
+      }
+    }
+  }
+  @media screen and(max-height: 768px) {
+    header {
+      img {
+        zoom: 0.8;
+        top: 20vh;
       }
     }
   }

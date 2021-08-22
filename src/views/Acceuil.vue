@@ -299,5 +299,16 @@ export default {
       }
     }
   }
+  @media screen and(max-height: 768px) {
+    section {
+      height: 310vh;
+    }
+    article {
+      height: 115vh;
+      img {
+        height: 115vh;
+      }
+    }
+  }
 }
 </style>

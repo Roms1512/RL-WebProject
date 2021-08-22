@@ -66,7 +66,6 @@ export default {
   background: linear-gradient(to right, #2A2A2A, #010101);
   position: relative;
   top: -18vh;
-
   header {
     text-align: left;
     margin-left: 10vw;
@@ -87,7 +86,6 @@ export default {
       color: #fff;
     }
   }
-
   section {
     background: #0E0E0E;
     height: 160vh;
@@ -170,7 +168,6 @@ export default {
       }
     }
   }
-
   @media screen and(max-width: 1024px) {
     header {
       img {
@@ -197,7 +194,6 @@ export default {
       }
     }
   }
-
   @media screen and(max-width: 768px) {
     header {
       img {
@@ -223,9 +219,18 @@ export default {
         font-size: large;
       }
       form {
+        width: 80vw;
         input, select {
           height: 50px;
         }
+      }
+    }
+  }
+  @media screen and(max-height: 768px) {
+    section {
+      height: 170vh;
+      form {
+        height: 75vh;
       }
     }
   }

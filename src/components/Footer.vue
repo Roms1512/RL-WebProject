@@ -104,5 +104,9 @@ export default {
       }
     }
   }
+
+  @media screen and(max-height: 768px) {
+    height: 18vh;
+  }
 }
 </style>

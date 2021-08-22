@@ -293,7 +293,6 @@ export default {
       }
     }
   }
-
   @media screen and(max-width: 1024px) {
 
     header {
@@ -359,11 +358,21 @@ export default {
       }
     }
   }
-
   @media screen and(max-width: 768px) {
     header {
+      img {
+        top: -6vh;
+        height: 100vh;
+      }
       h1 {
         font-size: 70px;
+      }
+    }
+  }
+  @media screen and(max-height: 768px) {
+    header {
+      img {
+        right: -30vw;
       }
     }
   }
