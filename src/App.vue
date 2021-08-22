@@ -107,7 +107,7 @@ export default {
       }
     }
   }
-  @media screen and(max-width: 768px) {
+  @media screen and(max-width: 768px), (max-height: 768px) {
     flex-direction: column;
     justify-content: center !important;
     .logo, .nav-bar {
@@ -127,7 +127,7 @@ export default {
       }
     }
   }
-  @media screen and(max-width: 540px) {
+  @media screen and(max-width: 540px), (max-height: 540px) {
     .logo {
       margin-top: 2vh;
       p {
@@ -135,7 +135,7 @@ export default {
       }
     }
   }
-  @media screen and(max-width: 414px) {
+  @media screen and(max-width: 414px), (max-height: 414px) {
     .logo {
       p {
         font-size: large;
@@ -150,7 +150,7 @@ export default {
       }
     }
   }
-  @media screen and(max-width: 375px) {
+  @media screen and(max-width: 375px), (max-height: 375px) {
     .nav-bar {
       a {
         font-size: x-small;

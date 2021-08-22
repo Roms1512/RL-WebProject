@@ -359,7 +359,7 @@ export default {
       }
     }
   }
-  @media screen and(max-width: 540px) {
+  @media screen and(max-width: 540px), (max-height: 540px) {
     header {
       img {
         height: 100vh;
@@ -371,6 +371,15 @@ export default {
       }
     }
     section {
+      .projet {
+        .colonne-1, .colonne-2 {
+          .description-projet {
+            h5 {
+              line-height: 3vh;
+            }
+          }
+        }
+      }
       .projet-1 {
         height: 110vh;
         .colonne-1 {
@@ -399,7 +408,7 @@ export default {
       }
     }
   }
-  @media screen and(max-width: 414px) {
+  @media screen and(max-width: 414px), (max-height: 414px) {
     header {
       img {
         right: -50vw !important;
@@ -431,6 +440,13 @@ export default {
       img {
         top: -10vh;
         right: -20vw;
+      }
+    }
+  }
+  @media screen and(max-height: 414px) {
+    header {
+      img {
+        right: 0vw !important;
       }
     }
   }

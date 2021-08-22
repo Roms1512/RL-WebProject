@@ -8,7 +8,7 @@
       <div class="colonne-1">
         <div class="sous-titre-mention">
           <h4>Éditeur du site</h4>
-          <h5>Restaurant [ Nom Société ], 05000, Gap, France Responsable de la publication : [ Propriètaire ]</h5>
+          <h5>Entreprise RL WebProject, 05200, Embrun, France Responsable de la publication : LAVAUR Romain</h5>
         </div>
         <div class="sous-titre-mention">
           <h4>Hébergement</h4>
@@ -16,7 +16,7 @@
         </div>
         <div class="sous-titre-mention">
           <h4>Crédits</h4>
-          <h5>Photos : [ Propriètaire ]. Conception et réalisation du site Web : RL WebProject, 2 Impasse des Gentianes, 05200, Embrun.</h5>
+          <h5>Photos : LAVAUR Romain. Conception et réalisation du site Web : RL WebProject, 2 Impasse des Gentianes, 05200, Embrun.</h5>
         </div>
         <div class="sous-titre-mention">
           <h4>Information et libertés</h4>
@@ -26,7 +26,7 @@
       <div class="colonne-2">
         <div class="sous-titre-mention">
           <h4>Liens</h4>
-          <h5>Les liens proposés vers d'autres sites sont communiqués à titre indicatif et ne sauraient engager la responsabilité du Cabinet [ Nom Entreprise ] tant en ce qui concerne les contenus, les conditions d'accès, que l'usage qu'il peut être fait de ces contenus et de leur éventuelles conséquences. Si les responsables d'un site " cible " souhaitent modifier leur mode de présence sur ce site, ils peuvent en faire la demande en adressant un email auprès du webmaster. <br>A l'inverse, les liens vers une ou plusieurs page(s) du présent site sont autorisés sous la condition d'en informer le webmaster. Le Cabinet [ Nom Société ] se réserve le droit de demander de retirer les liens à sa discrétion sans devoir en justifier la raison.</h5>
+          <h5>Les liens proposés vers d'autres sites sont communiqués à titre indicatif et ne sauraient engager la responsabilité de l'entraprise RL WebProject tant en ce qui concerne les contenus, les conditions d'accès, que l'usage qu'il peut être fait de ces contenus et de leur éventuelles conséquences. Si les responsables d'un site " cible " souhaitent modifier leur mode de présence sur ce site, ils peuvent en faire la demande en adressant un email auprès du Webmaster. <br>A l'inverse, les liens vers une ou plusieurs page(s) du présent site sont autorisés sous la condition d'en informer le webmaster. L'entreprise' RL WebProject se réserve le droit de demander de retirer les liens à sa discrétion sans devoir en justifier la raison.</h5>
         </div>
         <div class="sous-titre-mention">
           <h4>Marques déposées</h4>
@@ -124,21 +124,27 @@ export default {
       height: 100vh;
     }
   }
-  @media screen and(max-width: 540px) {
+  @media screen and(max-width: 540px), (max-height: 540px) {
     header {
       h1 {
         font-size: xxx-large;
       }
     }
     section {
-      height: 150vh;
+      height: 130vh;
       flex-direction: column;
       .colonne-1, .colonne-2 {
         width: 90vw;
+        h4 {
+          font-size: medium;
+        }
+        h5 {
+          font-size: x-small;
+        }
       }
     }
   }
-  @media screen and(max-width: 414px) {
+  @media screen and(max-width: 414px), (max-height: 414px) {
     header {
       h1 {
         font-size: xx-large;
@@ -155,12 +161,18 @@ export default {
       }
     }
   }
-  @media screen and(max-width: 375px) {
+  @media screen and(max-width: 375px), (max-height: 375px) {
     section {
-      height: 160vh;
+      height: 155vh;
     }
   }
 
   //***** Max-height *****//
+
+  @media screen and(max-height: 375px) {
+    section {
+      height: 145vh !important;
+    }
+  }
 }
 </style>

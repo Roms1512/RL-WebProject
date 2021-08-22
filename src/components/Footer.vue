@@ -113,7 +113,7 @@ export default {
       }
     }
   }
-  @media screen and(max-width:540px) {
+  @media screen and(max-width:540px), (max-height: 540px) {
     height: 22vh !important;
     .reseaux {
       font-size: xx-large !important;
@@ -128,17 +128,20 @@ export default {
       align-items: center;
     }
   }
-  @media screen and(max-width:414px) {
+  @media screen and(max-width:414px), (max-height: 414px) {
     height: 22vh !important;
     .logo {
       h2 {
-        font-size: smaller;
+        font-size: medium;
       }
     }
     .reseaux {
       font-size: x-large !important;
     }
     .droit {
+      .copyright, .design {
+        font-size: xx-small !important;
+      }
       .copyright {
         display: flex;
         flex-direction: column;
@@ -154,6 +157,15 @@ export default {
 
   @media screen and(max-height: 768px) {
     height: 18vh;
+  }
+  @media screen and(max-height: 540px) {
+    height: 25vh !important;
+  }
+  @media screen and(max-height: 414px) {
+    height: 31vh !important;
+  }
+  @media screen and(max-height: 375px) {
+    height: 34vh !important;
   }
 }
 </style>

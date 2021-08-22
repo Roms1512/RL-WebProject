@@ -263,7 +263,7 @@ export default {
       }
     }
   }
-  @media screen and(max-width: 540px) {
+  @media screen and(max-width: 540px), (max-height: 540px) {
     header {
       img {
         zoom: 0.6 !important;
@@ -303,7 +303,7 @@ export default {
       }
     }
   }
-  @media screen and(max-width: 414px) {
+  @media screen and(max-width: 414px), (max-height: 414px) {
     header {
       img {
         zoom: 0.5;
@@ -353,12 +353,28 @@ export default {
       }
     }
     section {
+      .all-service {
+        img {
+          height: 35vh;
+          &:nth-child(1) {
+            top: 22vh;
+            left: -25vw;
+          }
+          &:nth-child(2) {
+            height: 40vh;
+            right: -55vw;
+          }
+        }
+      }
       .description {
         font-size: xx-small;
         .debut {
           font-size: small;
         }
       }
+    }
+    article {
+      height: 100vh !important;
     }
   }
 
@@ -369,6 +385,28 @@ export default {
       img {
         zoom: 0.8;
         top: 20vh;
+      }
+    }
+  }
+  @media screen and(max-height: 414px) {
+    header {
+      img {
+        right: 0;
+      }
+    }
+    section {
+      .all-service {
+        img {
+          height: 60vh;
+          &:nth-child(1) {
+            top: 22vh;
+          }
+          &:nth-child(2) {
+            height: 70vh;
+            top: 68vh;
+            right: -35vw;
+          }
+        }
       }
     }
   }

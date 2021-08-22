@@ -302,7 +302,7 @@ export default {
       }
     }
   }
-  @media screen and(max-width: 540px) {
+  @media screen and(max-width: 540px), (max-height: 540px) {
     header {
       h1 {
         font-size: xxx-large;
@@ -353,7 +353,7 @@ export default {
       }
     }
   }
-  @media screen and(max-width: 414px) {
+  @media screen and(max-width: 414px), (max-height: 414px) {
     header {
       h1 {
         font-size: xx-large;
@@ -403,13 +403,17 @@ export default {
         }
     }
   }
-  @media screen and(max-width: 375px) {
+  @media screen and(max-width: 375px), (max-height: 375px) {
     section {
       h2 {
         font-size: medium;
       }
     }
     article {
+      height: 90vh !important;
+      .fond {
+        height: 90vh !important;
+      }
       .competences {
         .competence {
           img {
@@ -430,6 +434,31 @@ export default {
       height: 115vh;
       img {
         height: 115vh;
+      }
+    }
+  }
+  @media screen and(max-height: 540px) {
+    article {
+      height: 110vh;
+    }
+  }
+  @media screen and(max-height: 414px) {
+    article {
+      height: 110vh;
+      a {
+        font-size: x-small !important;
+        padding: 5px 30px;
+        }
+    }
+  }
+  @media screen and(max-height: 375px) {
+    article {
+      height: 120vh !important;
+      .fond {
+        height: 120vh !important;
+      }
+      .competences {
+        margin-bottom: 8vh;
       }
     }
   }

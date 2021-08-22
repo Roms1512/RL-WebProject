@@ -268,7 +268,7 @@ export default {
       }
     }
   }
-  @media screen and(max-width: 414px) {
+  @media screen and(max-width: 414px), (max-height: 414px) {
     header {
       img {
         zoom: .5;
@@ -289,7 +289,7 @@ export default {
       }
     }
   }
-  @media screen and(max-width: 375px) {
+  @media screen and(max-width: 375px), (max-height: 375px) {
     header {
       img {
         zoom: 0.4;
@@ -319,6 +319,31 @@ export default {
               height: 75vh;
             }
           }
+  }
+  @media screen and(max-height: 540px) {
+    header {
+      h1 {
+        font-size: xxx-large;
+      }
+    }
+  }
+  @media screen and(max-height: 414px) {
+    header {
+      img {
+        zoom: 0.8;
+        right: 20vw;
+        top: 20vh;
+      }
+    }
+    section {
+      height: 200vh !important;
+      .info-contact {
+        margin-bottom: 30vh;
+      }
+      form {
+        height: 85vh !important;
+      }
+    }
   }
 }
 </style>
