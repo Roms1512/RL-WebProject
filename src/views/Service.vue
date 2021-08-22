@@ -251,5 +251,16 @@ export default {
       }
     }
   }
+
+  @media screen and(max-width: 768px) {
+    header {
+      img {
+        top: 55vh;
+      }
+      h1 {
+        font-size: 70px;
+      }
+    }
+  }
 }
 </style>

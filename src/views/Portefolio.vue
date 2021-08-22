@@ -19,7 +19,7 @@
           </div>
           <div class="description-projet" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1500" data-aos-once="true">
             <h4>PROJET 1</h4>
-            <h5><span>La Chouette Agence</span> est un site d’agence qui aide à la création du site web en proposant c’est service,<span> « Tiens ça me rappelle quelque chose ? 😏»</span>.<br> C’est un projet d'école qui devait m’entrainer à la <span>Maintenance et à la Reprise</span> d’un site web, à le mettre à jour, à le rendre plus simple à comprendre pour les utilisateurs et qui doit respecter les <span>10 recommandations SEO de Google</span>.<br>Vous pouvez cliquer ici pour accéder à ce site : <a href="https://roms1512.github.io/LavaurRomain_3_24-11-2020/" target="_blank">La Chouette Agence.</a></h5>
+            <h5><a href="https://roms1512.github.io/LavaurRomain_3_24-11-2020/" target="_blank">La Chouette Agence.</a> est un site d’agence qui aide à la création du site web en proposant c’est service,<span> « Tiens ça me rappelle quelque chose ? 😏»</span>.<br> C’est un projet d'école qui devait m’entrainer à la <span>Maintenance et à la Reprise</span> d’un site web, à le mettre à jour, à le rendre plus simple à comprendre pour les utilisateurs et qui doit respecter les <span>10 recommandations SEO de Google</span>.<br>Vous pouvez cliquer ici pour accéder à ce site : <a href="https://roms1512.github.io/LavaurRomain_3_24-11-2020/" target="_blank">La Chouette Agence.</a></h5>
           </div>
         </div>
       </div>
@@ -31,7 +31,7 @@
         <div class="colonne-1">
           <div class="description-projet" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="400" data-aos-once="true">
             <h4>PROJET 2</h4>
-            <h5><span>Waxon</span> est un <span>design de site web créer sur Dribble</span>, que j’ai décidé de coder afin de m’entrainer à reproduire une maquette qu’un designer peut me donner.<br><br>C’est donc pour ça qu’il n’y a qu’une seule page, disons que c’est un <span>site OnePage</span> qui présente toutes sortes de projets.<br><br>Il y a quelques autres projets similaires, et il est <span>uniquement fait pour PC niveau Responsive</span>. Voici le lien de cette page : <a href="https://roms1512.github.io/TP_01/" target="_blank">Waxon</a></h5>
+            <h5><a href="https://roms1512.github.io/TP_01/" target="_blank">Waxom</a> est un <span>design de site web créer sur Dribble</span>, que j’ai décidé de coder afin de m’entrainer à reproduire une maquette qu’un designer peut me donner.<br><br>C’est donc pour ça qu’il n’y a qu’une seule page, disons que c’est un <span>site OnePage</span> qui présente toutes sortes de projets.<br><br>Il y a quelques autres projets similaires, et celui ci est <span>uniquement fait pour PC niveau Responsive</span>. Voici le lien de cette page : <a href="https://roms1512.github.io/TP_01/" target="_blank">Waxom</a></h5>
           </div>
           <div class="img img-1" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true">
             <img src="@/assets/PhotoProjet/5.png" alt="Projet 2">
@@ -55,7 +55,7 @@
         <div class="colonne-2">
           <div class="description-projet" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1500" data-aos-once="true">
             <h4>PROJET 3</h4>
-            <h5><span>Orinoco</span> est un <span>site ecommerce</span> qui vend des peluches, des meubles et des appareils photo.<br> C’est un projet d’école qui devait m’entrainer à faire un <span>appel à une API</span> existante et à la Manipuler, tous en faisant un <span>formulaire</span> qui servait à accepter ou non la commande.<br> Malheureusement comme il n’est pas en ligne, je ne peux que vous faire accéder à mon github et c’est fichier, pour pouvoir y accéder : <a href="https://github.com/Roms1512/LavaurRomain_4_19-12-2020">Orinoco</a></h5>
+            <h5><a href="https://github.com/Roms1512/LavaurRomain_4_19-12-2020" target="_blank">Orinoco</a> est un <span>site eCommerce</span> qui vend des peluches, des meubles et des appareils photo.<br> C’est un projet d’école qui devait m’entrainer à faire un <span>appel à une API</span> existante et à la Manipuler, tous en faisant un <span>formulaire</span> qui servait à accepter ou non la commande.<br><br> Malheureusement comme il n’est pas en ligne, je ne peux que vous faire accéder à mon GitHub et ses fichiers sources, pour pouvoir y jeter un oeil : <a href="https://github.com/Roms1512/LavaurRomain_4_19-12-2020" target="_blank">Orinoco</a></h5>
           </div>
           <div class="img img-1" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="2000" data-aos-once="true">
             <img src="@/assets/PhotoProjet/8.png" alt="Projet 3">
@@ -80,8 +80,7 @@
           </div>
           <div class="description-projet" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
             <h4>PROJET 4</h4>
-            <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eligendi expedita debitis repudiandae libero, deserunt dolorem eos! Exercitationem itaque nisi eius similique, earum molestias dignissimos architecto illo ipsum doloribus tempore!
-            Molestias, sunt ratione! Adipisci praesentium earum magnam mollitia tempora suscipit possimus, laborum omnis et asperiores illum accusamus ipsam deserunt nobis reiciendis in animi laudantium nesciunt officiis quod ullam, impedit repellendus.</h5>
+            <h5><a href="https://roms1512.github.io/TP_04/" target="_blank">Faicco's</a> est un <span>design de site web que j’ai trouvé sur pinterest</span> cette fois-ci, et que j’ai également décidé de coder afin de m’entrainer à la reproduire comme si un designer m’avait donné une maquette.<br><br>Ce site aussi et fait en <span>OnePage</span> et présente un restaurant, c’est diffèrent plats principaux et sa carte des menus.<br><br>Il y a quelques autres projets similaires et celui ci est <span>uniquement fait pour PC niveau Responsive</span>. Vous pouvez cliquer ici pour y accéder : <a href="https://roms1512.github.io/TP_04/" target="_blank">Faicco's</a></h5>
           </div>
         </div>
         <div class="colonne-2" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="1000"  data-aos-once="true">
@@ -153,7 +152,7 @@ export default {
           }
           h5 {
             font-weight: 350;
-            font-size: medium;
+            font-size: 15px;
             line-height: 2.5vh;
             a, span {
               font-weight: bold;
@@ -357,6 +356,14 @@ export default {
             height: 40vh;
           }
         }
+      }
+    }
+  }
+
+  @media screen and(max-width: 768px) {
+    header {
+      h1 {
+        font-size: 70px;
       }
     }
   }

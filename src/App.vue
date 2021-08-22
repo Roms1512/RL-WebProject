@@ -106,6 +106,25 @@ export default {
     }
   }
 
-  
+  @media screen and(max-width: 768px) {
+    flex-direction: column;
+    justify-content: center !important;
+    .logo, .nav-bar {
+      width: 100%;
+    }
+    .logo {
+      margin-bottom: 4vh;
+      p {
+        font-size: xxx-large;
+        color: #a39555;
+      }
+    }
+    .nav-bar {
+      a {
+        margin-left: 25pt;
+        margin-right: 25pt;
+      }
+    }
+  }
 }
 </style>

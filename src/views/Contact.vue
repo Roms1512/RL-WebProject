@@ -170,5 +170,64 @@ export default {
       }
     }
   }
+
+  @media screen and(max-width: 1024px) {
+    header {
+      img {
+        zoom: 0.6;
+        top: 40vh;
+      }
+    }
+    section {
+      height: 150vh;
+      .info-contact {
+        margin:10vh auto;
+        width: 90vw;
+        .info {
+          width: 30vw;
+          h4 {
+            margin-top: 10px;
+          }
+        }
+      }
+      form {
+        input, select {
+          height: 60px;
+        }
+      }
+    }
+  }
+
+  @media screen and(max-width: 768px) {
+    header {
+      img {
+        top: 60vh;
+      }
+      h1 {
+        font-size: 70px;
+      }
+    }
+    section {
+      h2 {
+        font-size: xx-large;
+      }
+      .info-contact {
+        .info {
+          
+          h5 {
+            font-size: x-small !important;
+          }
+        }
+      }
+      h3 {
+        font-size: large;
+      }
+      form {
+        input, select {
+          height: 50px;
+        }
+      }
+    }
+  }
 }
 </style>

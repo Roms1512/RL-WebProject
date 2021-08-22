@@ -83,5 +83,26 @@ export default {
   @media screen and(max-width: 1024px) {
     height: 13vh;
   }
+
+  @media screen and(max-width:768px) {
+    .logo {
+      h2 {
+        font-size: large;
+      }
+    }
+    .reseaux {
+      font-size: x-large;
+    }
+    .droit {
+      .copyright, .design {
+        font-size: xx-small;
+      }
+      .copyright {
+        p {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
 }
 </style>
