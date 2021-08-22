@@ -167,6 +167,9 @@ export default {
       }
     }
   }
+
+  //***** Max-width *****//
+
   @media screen and(max-width: 1024px) {
     header {
       img {
@@ -225,6 +228,11 @@ export default {
     }
   }
   @media screen and(max-width: 540px) {
+    header {
+      h1 {
+        font-size: xxx-large;
+      }
+    }
     section {
       height: 200vh !important;
       h2 {
@@ -233,6 +241,7 @@ export default {
       .info-contact {
         margin: 10vh auto !important;
         height: 70vh;
+        width: 80vw;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
@@ -246,10 +255,40 @@ export default {
             padding: 3vh 0;
             margin: 0 0 4vh 0;
           }
+          &:nth-of-type(3) {
+            width: 100%;
+            text-align: center;
+          }
+        }
+      }
+      form {
+        input, select, textarea {
+          font-size: medium;
         }
       }
     }
   }
+  @media screen and(max-width: 414px) {
+    header {
+      img {
+        zoom: .5;
+      }
+    }
+    section {
+      form {
+        height: 70vh !important;
+        input, select, textarea {
+          font-size: smaller;
+        }
+        input, select {
+          height: 40px;
+        }
+      }
+    }
+  }
+
+  //***** Max-height *****//
+
   @media screen and(max-height: 768px) {
           section {
             height: 170vh;

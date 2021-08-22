@@ -132,5 +132,20 @@ export default {
       }
     }
   }
+  @media screen and(max-width: 414px) {
+    .logo {
+      p {
+        font-size: large;
+      }
+    }
+    .nav-bar {
+      display: flex;
+      justify-content: space-between;
+      a {
+        font-size: small;
+        margin: 0;
+      }
+    }
+  }
 }
 </style>

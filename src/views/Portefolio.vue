@@ -246,6 +246,9 @@ export default {
       background: #89815F;
     }
   }
+
+  //***** Max-width *****//
+
   @media screen and(max-width: 1366px) {
     section {
       .projet-1 {
@@ -396,6 +399,33 @@ export default {
       }
     }
   }
+  @media screen and(max-width: 414px) {
+    header {
+      img {
+        right: -50vw !important;
+      }
+      h1 {
+        font-size: xx-large;
+      }
+    }
+    section {
+      .projet {
+        .colonne-1, .colonne-2 {
+          .description-projet {
+            h4 {
+              font-size: large;
+            }
+            h5 {
+              font-size: xx-small;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //***** Max-height *****//
+
   @media screen and(max-height: 768px) {
     header {
       img {

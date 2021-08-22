@@ -7,9 +7,14 @@
     </div>
     <div class="droit">
       <div class="copyright">
-        <i class="far fa-copyright"></i>
-        <p>2021 RL WEBPROJECT All rights reserved</p> |
-        <router-link to="/mentions">Mentions Légales</router-link>
+        <div class="rights">
+          <i class="far fa-copyright"></i>
+          <p>2021 RL WEBPROJECT All rights reserved</p>| 
+        </div>
+        
+        <div class="mention-legale">
+          <router-link to="/mentions">Mentions Légales</router-link>
+        </div>
       </div>
       <div class="design">
         <p>DESIGN BY</p>
@@ -70,15 +75,21 @@ export default {
       }
     }
     .copyright {
-      i {
-        margin-top: 3px;
-        margin-right: 10px;
-      }
-      p {
-        margin-right: 20px;
+      .rights {
+        display: flex;
+        i {
+          margin-top: 3px;
+          margin-right: 10px;
+        }
+        p {
+          margin-right: 10px;
+        }
       }
     }
   }
+
+  //***** Max-width *****//
+
   @media screen and(max-width: 1024px) {
     height: 13vh;
   }
@@ -96,7 +107,7 @@ export default {
         font-size: xx-small;
       }
       .copyright {
-        p {
+        p, a {
           margin-right: 10px;
         }
       }
@@ -114,9 +125,33 @@ export default {
       margin-top: 2.5vh;
       height: 4vh;
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
     }
   }
+  @media screen and(max-width:414px) {
+    height: 22vh !important;
+    .logo {
+      h2 {
+        font-size: smaller;
+      }
+    }
+    .reseaux {
+      font-size: x-large !important;
+    }
+    .droit {
+      .copyright {
+        display: flex;
+        flex-direction: column;
+      }
+      .design {
+        margin-top: 10px;
+      }
+      
+    }
+  }
+
+  //***** Max-height *****//
+
   @media screen and(max-height: 768px) {
     height: 18vh;
   }

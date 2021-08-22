@@ -216,6 +216,9 @@ export default {
       }
     }
   }
+
+  //***** Max-width *****//
+
   @media screen and(max-width: 1366px) {
     header {
       justify-content: center;
@@ -350,6 +353,57 @@ export default {
       }
     }
   }
+  @media screen and(max-width: 414px) {
+    header {
+      h1 {
+        font-size: xx-large;
+        }
+        h5 {
+          font-size: x-small;
+        }
+        a {
+          font-size: x-small !important;
+          padding: 5px 30px;
+          margin-left: 30pt;
+        }
+    }
+    section {
+        a {
+          font-size: x-small !important;
+          padding: 5px 30px;
+        }
+        h2 {
+          font-size: large;
+        }
+        h5 {
+          font-size: xx-small;
+        }
+    }
+    article {
+        a {
+          font-size: x-small !important;
+          padding: 5px 30px;
+        }
+        h2 {
+          font-size: large;
+        }
+        .competences {
+          .competence {
+            .text-competence {
+              h4 {
+                font-size: x-small;
+              }
+              h5 {
+                font-size: xx-small;
+              }
+            }
+          }
+        }
+    }
+  }
+
+  //***** Max-height *****//
+
   @media screen and(max-height: 768px) {
     section {
       height: 310vh;

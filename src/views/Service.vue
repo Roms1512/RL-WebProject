@@ -195,6 +195,9 @@ export default {
       }
     }
   }
+
+  //***** Max-width *****//
+
   @media screen and(max-width: 1366px) {
     section {
       .all-service {
@@ -300,6 +303,48 @@ export default {
       }
     }
   }
+  @media screen and(max-width: 414px) {
+    header {
+      img {
+        zoom: 0.5;
+        right: -25vw;
+      }
+    }
+    section {
+      .all-service {
+        img {
+          height: 40vh;
+          &:nth-child(1) {
+            top: 22vh;
+          }
+          &:nth-child(2) {
+            height: 40vh;
+            top: 82vh;
+            right: -55vw;
+          }
+        }
+      }
+    }
+    article {
+      h2 {
+        font-size: x-large;
+      }
+      .competences {
+        .single-competence {
+          width: 22vw;
+          p {
+            font-size: small;
+          }
+          img {
+          height: 7vh;
+        }
+        }
+      }
+    }
+  }
+
+  //***** Max-height *****//
+
   @media screen and(max-height: 768px) {
     header {
       img {
