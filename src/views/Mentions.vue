@@ -2,7 +2,7 @@
   <div id="mention" class="page">
     <header>
       <img src="@/assets/PhotoFond/2.png" alt="Clavier Ordinateur">
-      <h1>Mentions Légales</h1>
+      <h1>Mentions<br> Légales</h1>
     </header>
     <section>
       <div class="colonne-1">
@@ -55,7 +55,6 @@ export default {
   background: linear-gradient(to right, #2A2A2A, #010101);
   position: relative;
   top: -18vh;
-
   header {
     text-align: left;
     margin-left: 10vw;
@@ -76,7 +75,6 @@ export default {
       color: #fff;
     }
   }
-
   section {
     background: #0E0E0E;
     height: 83vh;
@@ -102,5 +100,67 @@ export default {
       }
     }
   }
+
+  //***** Max-width *****//
+
+  @media screen and(max-width: 1024px) {
+    header {
+      img {
+        top: 0;
+        height: 100vh;
+      }
+      h1 {
+        font-size: 70px;
+      }
+    }
+  }
+  @media screen and(max-width: 768px) {
+    header {
+      h1 {
+        font-size: 70px;
+      }
+    }
+    section {
+      height: 100vh;
+    }
+  }
+  @media screen and(max-width: 540px) {
+    header {
+      h1 {
+        font-size: xxx-large;
+      }
+    }
+    section {
+      height: 150vh;
+      flex-direction: column;
+      .colonne-1, .colonne-2 {
+        width: 90vw;
+      }
+    }
+  }
+  @media screen and(max-width: 414px) {
+    header {
+      h1 {
+        font-size: xx-large;
+      }
+    }
+    section {
+      .colonne-1, .colonne-2 {
+        h4 {
+          font-size: medium;
+        }
+        h5 {
+          font-size: x-small;
+        }
+      }
+    }
+  }
+  @media screen and(max-width: 375px) {
+    section {
+      height: 160vh;
+    }
+  }
+
+  //***** Max-height *****//
 }
 </style>

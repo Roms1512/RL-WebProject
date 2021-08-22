@@ -97,6 +97,9 @@ export default {
       }
     }
   }
+
+  //***** Max-width *****//
+
   @media screen and(max-width: 1024px) {
     .nav-bar {
       a {
@@ -113,7 +116,7 @@ export default {
     .logo {
       margin-bottom: 4vh;
       p {
-        font-size: xxx-large;
+        font-size: xx-large;
         color: #a39555;
       }
     }
