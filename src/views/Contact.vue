@@ -25,20 +25,22 @@
         </div>
       </div>
       <h3>SI VOUS AVEZ DES QUESTIONS,<br>ENVOYER NOUS UN MESSAGE</h3>
-      <form method="" action="">
-        <input type="text" name="nom" placeholder="NOM, PRÉNOM" aria-label="Nom Prenom" required>
-        <input type="email" name="email" placeholder="E-MAIL" aria-label="Email" required>
+      <form method="post" id="contact_form" @submit.prevent="sendEmail">
+        <input type="hidden" name="contact_number">
+        <input type="text"  id="nom" name="user_name" placeholder="NOM, PRÉNOM" aria-label="Nom Prenom" required>
+        <input type="email" id="email" name="user_email" placeholder="E-MAIL" aria-label="Email" required>
         <select name="sujet" id="sujet" aria-label="Sujet du message" required>
           <option value="">SUJET</option>
-          <option value="devis">J'ai besoin d'un devis</option>
-          <option value="création-pro">Création d'un site web pour mon entreprise</option>
-          <option value="création-perso">Création d'un site web personnel(le)</option>
-          <option value="reprise">Reprise d'un site web existant</option>
-          <option value="maintenance">Maintenance de mon site</option>
-          <option value="Réferencement">Améliorer le référencement de mon site</option>
+          <option value="devis">{{ sujet.devis }}</option>
+          <option value="création-pro">{{ sujet.business }}</option>
+          <option value="création-perso">{{ sujet.perso }}</option>
+          <option value="reprise">{{ sujet.reprise }}</option>
+          <option value="maintenance">{{ sujet.maintenance }}</option>
+          <option value="referencement">{{ sujet.referencement }}</option>
+          <option value="autre">{{ sujet.autre }}</option>
         </select>
         <textarea name="message" id="message" maxlength="1000" placeholder="MESSAGE ..." aria-label="Ecrivez votre message" required></textarea>
-        <button @click="submitForm">ENVOYEZ !</button>
+        <button @click="submitForm" id="submit">ENVOYEZ !</button>
       </form>
     </section>
     <Footer/>
@@ -46,8 +48,10 @@
 </template>
 
 <script>
+import emailjs from 'emailjs-com'
+import { mapState,mapMutations } from 'vuex'
 import Footer from '@/components/Footer'
-import { mapMutations } from 'vuex'
+
 
 export default {
   name: 'Contact',
@@ -55,7 +59,18 @@ export default {
     Footer
   },
   computed: {
+    ...mapState(['sujet', 'devis', 'business', 'perso', 'reprise', 'maintenance', 'referencement', 'autre']),
     ...mapMutations(['submitForm'])
+  },
+  methods: {
+    sendEmail: (e) => {
+      emailjs.sendForm(process.env.VUE_APP_YOUR_SERVICE_ID, process.env.VUE_APP_YOUR_TEMPLATE_ID, e.target, process.env.VUE_APP_YOUR_USER_ID)
+        .then((result) => {
+            console.log('SUCCESS!', result.status, result.text);
+        }, (error) => {
+            console.log('FAILED...', error);
+        });
+    }
   }
 }
 </script>

@@ -8,7 +8,7 @@
     </header>
     <section>
       <h2 data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">QUELQUES PROJETS RÉALISÉS<br>PAR NOS SOINS</h2>
-      <h5 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Chaque projet est réalisés sur mesures pour<br>correspondre à vos besoins</h5>
+      <h5 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Chaque projet est réalisés sur mesures pour<br>correspondre à vos besoins.<br><span>Votre Premier Devis est GRATUIT !</span></h5>
       <div class="projets">
         <div class="projet" data-aos="fade-in" data-aos-duration="2500" data-aos-offset="350" data-aos-once="true">
           <img src="@/assets/PhotoProjet/1.png" alt="projet 1">
@@ -33,7 +33,7 @@
           <img src="@/assets/Icon/15.png" alt="Icon Ordinateur">
           <div class="text-competence">
             <h4>CRÉATION DE SITES WEB</h4>
-            <h5>Besoin d’un site web Professionnel pour vous ou votre entreprise ? Site Vitrine, OnePage, Site Sur Mesure ? Vous ne savais pas quoi choisir ? Pas de panique, nous sommes là pour vous aider à choisir la meilleure solution et à créer un site web adaptée à votre activité(s).</h5>
+            <h5>Besoin d’un site web Professionnel pour vous ou votre entreprise ? Site Vitrine, OnePage, Web-App ? Vous ne savais pas quoi choisir ? Pas de panique, nous sommes là pour vous aider à choisir la meilleure solution et à créer un site web adaptée à votre activité(s).</h5>
           </div>
         </div>
         <div class="competence" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1500" data-aos-once="true">
@@ -130,6 +130,9 @@ export default {
     h5 {
       font-weight: 300;
       font-size: medium;
+      span {
+        font-weight: bold;
+      }
     }
     .projets {
       margin: 5vh auto;

@@ -13,15 +13,15 @@
         <img src="@/assets/PhotoFond/4.png" alt="Écouteur et Téléphone Apple" data-aos="slide-right" data-aos-duration="1500" data-aos-offset="300" data-aos-once="true" data-aos-delay="500">
         <img src="@/assets/PhotoFond/5.png" alt="Clavier Apple" data-aos="slide-left" data-aos-duration="1500" data-aos-offset="300" data-aos-once="true" data-aos-delay="500">
         <div class="single-service" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
-          <h4>CRÉATION DE SITES WEB</h4>
+          <h4>Site Vitrine</h4>
           <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi, nesciunt commodi, rem, nobis mollitia nostrum ab ipsum sequi tempore sunt maxime consequatur excepturi deserunt illo ullam repellat ad sapiente.</h5>
         </div>
         <div class="single-service" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
-          <h4>MAINTENANCE & REPRISE</h4>
+          <h4>OnePage</h4>
           <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi, nesciunt commodi, rem, nobis mollitia nostrum ab ipsum sequi tempore sunt maxime consequatur excepturi deserunt illo ullam repellat ad sapiente.</h5>
         </div>
         <div class="single-service" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="800" data-aos-once="true">
-          <h4>SEO & RÉFÉRENCEMENT</h4>
+          <h4>Web-App</h4>
           <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi, nesciunt commodi, rem, nobis mollitia nostrum ab ipsum sequi tempore sunt maxime consequatur excepturi deserunt illo ullam repellat ad sapiente.</h5>
         </div>
       </div>

@@ -19,7 +19,7 @@
           </div>
           <div class="description-projet" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1500" data-aos-once="true">
             <h4>PROJET 1</h4>
-            <h5><a href="https://roms1512.github.io/LavaurRomain_3_24-11-2020/" target="_blank">La Chouette Agence.</a> est un site d’agence qui aide à la création du site web en proposant c’est service,<span> « Tiens ça me rappelle quelque chose ? 😏»</span>.<br> C’est un projet d'école qui devait m’entrainer à la <span>Maintenance et à la Reprise</span> d’un site web, à le mettre à jour, à le rendre plus simple à comprendre pour les utilisateurs et qui doit respecter les <span>10 recommandations SEO de Google</span>.<br>Vous pouvez cliquer ici pour accéder à ce site : <a href="https://roms1512.github.io/LavaurRomain_3_24-11-2020/" target="_blank">La Chouette Agence.</a></h5>
+            <h5><a href="https://roms1512.github.io/LavaurRomain_3_24-11-2020/" target="_blank">La Chouette Agence.</a> est un site d’agence qui aide à la création d'un site web en proposant c’est service,<span> « Tiens ça me rappelle quelque chose ? 😏»</span>.<br> C’est un projet d'école qui devait m’entrainer à la <span>Maintenance et à la Reprise</span> d’un site web, à le mettre à jour, à le rendre plus simple à comprendre pour les utilisateurs et qui doit respecter les <span>10 recommandations SEO de Google</span>.<br>Vous pouvez cliquer ici pour accéder à ce site : <a href="https://roms1512.github.io/LavaurRomain_3_24-11-2020/" target="_blank">La Chouette Agence.</a></h5>
           </div>
         </div>
       </div>
