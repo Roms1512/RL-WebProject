@@ -25,7 +25,7 @@
         </div>
       </div>
       <h3>SI VOUS AVEZ DES QUESTIONS,<br>ENVOYER NOUS UN MESSAGE</h3>
-      <form method="post" id="contact_form" @submit.prevent="sendEmail">
+      <form id="contact_form" @submit.prevent="sendEmail">
         <input type="hidden" name="contact_number">
         <input type="text"  id="nom" name="user_name" placeholder="NOM, PRÉNOM" aria-label="Nom Prenom" required>
         <input type="email" id="email" name="user_email" placeholder="E-MAIL" aria-label="Email" required>
@@ -171,6 +171,7 @@ export default {
         resize: none;
       }
       button {
+        cursor: pointer;
         width: 180px;
         margin: 0 auto 0 auto;
         color: #fff;
